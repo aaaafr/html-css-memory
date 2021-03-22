@@ -32,12 +32,12 @@ h1{
 main{
     position: relative;
     left:250px;
+    margin-top: 40px;
 }
 
 
 .column1{ 
     width:279px;
-    height:797px;
     float:left;
 
 
@@ -45,7 +45,6 @@ main{
 }
 .column2 { 
     width:279px;
-    height:797px;
     margin-left: 50px;
     float:left;
 
@@ -53,7 +52,6 @@ main{
 }
 .column3{ 
     width:279px;
-    height:797px;
     margin-left: 50px;
     float:left;
 
@@ -61,7 +59,6 @@ main{
 }
 .column4{ 
     width:279px;
-    height:797px;
     margin-left: 50px;
     float:left;
 
@@ -87,6 +84,13 @@ img{
 .square1:hover .overlay{
     opacity:1;
 }
+.square2:hover .overlay{
+    opacity:1;
+}
+.square3:hover .overlay{
+    opacity:1;
+}
+
 
 
 
@@ -96,33 +100,45 @@ img{
     height:320px;
     background-image: url(img/pattern.png);
     background-size: contain;
-    border-radius: 2rem;
+    border-radius: 1rem;
     
     
 }
 
-.square2 {
+.square2_visible{
+    background-color:white;
     width:291x;
-    height:220px;
-    background-color: green;
-    margin-top: 10px;
-    
-    
+    height:320px;
+    margin-top: 60px;
+    border-radius: 1rem;
+  
 }
+
+.square2{
+    width:291x;
+    height:320px;
+    background-image: url(img/pattern.png);
+    background-size: contain;
+    margin-top: 60px;
+    border-radius: 1rem;
+  
+}
+
+
 .square3 {
     width:291x;
-    height:220px;
-    background-color: green;
-    margin-top:10px;
-    
+    height:320px;
+    background-image: url(img/pattern.png);
+    background-size: contain;
+    margin-top: 60px;
+    border-radius: 1rem;
     
 } 
-
 
 h2{
     font-family:'Nerko One', cursive;
     color: black;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
