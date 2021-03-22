@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: white;
+    width:80%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.container{
+    background-color: rgb(152, 208, 230);
+ 
+
+}
+
+h1{
+    font-family:'Nerko One', cursive;
+    color:white;
+    font-size: 150px;
+    text-align: center;
+}
+
+main{
+    position: relative;
+    left:250px;
+}
+
+
+.column1{ 
+    width:279px;
+    height:797px;
+    float:left;
+
+
+
+}
+.column2 { 
+    width:279px;
+    height:797px;
+    margin-left: 50px;
+    float:left;
+
+
+}
+.column3{ 
+    width:279px;
+    height:797px;
+    margin-left: 50px;
+    float:left;
+
+
+}
+.column4{ 
+    width:279px;
+    height:797px;
+    margin-left: 50px;
+    float:left;
+
+
+}
+img{
+    display: block;
+    width:100%;
+    height: auto;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    border-radius: 2rem;
+  }
+  
+  
+
+.square1:hover .overlay{
+    opacity:1;
+}
+
+
+
+
+.square1 {
+    width:291x;
+    height:320px;
+    background-image: url(img/pattern.png);
+    background-size: contain;
+    border-radius: 2rem;
+    
+    
+}
+
+.square2 {
+    width:291x;
+    height:220px;
+    background-color: green;
+    margin-top: 10px;
+    
+    
+}
+.square3 {
+    width:291x;
+    height:220px;
+    background-color: green;
+    margin-top:10px;
+    
+    
+} 
+
+
+h2{
+    font-family:'Nerko One', cursive;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
