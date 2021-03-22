@@ -5,9 +5,9 @@
 }
 
 body{
-    background-color: white;
-    width:80%;
+    width:100%;
     margin: 0 auto;
+    background-color: rgb(152, 208, 230);
 }
 
 .clearfix::after{
@@ -16,11 +16,6 @@ body{
     clear: both;
 } 
 
-.container{
-    background-color: rgb(152, 208, 230);
- 
-
-}
 
 h1{
     font-family:'Nerko One', cursive;
@@ -31,7 +26,7 @@ h1{
 
 main{
     position: relative;
-    left:250px;
+    left:28%;
     margin-top: 40px;
 }
 
@@ -67,7 +62,7 @@ main{
 img{
     display: block;
     width:100%;
-    height: auto;
+    height: 100%;
 }
 
 .overlay {
